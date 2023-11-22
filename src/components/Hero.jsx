@@ -1,10 +1,5 @@
 import heroImg from '../assets/myhero.svg';
-import {
-  FaGithubSquare,
-  FaLinkedin,
-  FaTwitterSquare,
-  FaEnvelopeSquare,
-} from 'react-icons/fa';
+import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
 
 const Hero = () => {
   return (
