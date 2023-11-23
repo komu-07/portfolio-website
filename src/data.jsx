@@ -11,7 +11,7 @@ export const links = [
 export const skills = [
   {
     id: nanoid(),
-    title: 'HTML&CSS',
+    title: 'HTML & CSS',
     icon: <FaHtml5 className="h-16 w-16 text-pink-500" />,
     text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
   },
