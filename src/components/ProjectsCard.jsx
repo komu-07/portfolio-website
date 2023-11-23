@@ -16,13 +16,13 @@ const ProjectsCard = ({ img, url, github, title, text }) => {
           {title}
         </h2>
         <p className="mt-4 text-slate-700 leading-loose">
-          {readMore ? text : `${text.substring(0, 120)}...`}
+          {readMore ? text : `${text.substring(0, 120)}`}
           <button
             type="button"
             onClick={() => setReadMore(!readMore)}
             className="cursor-pointer font-bold text-pink-600"
           >
-            {readMore ? 'show less' : 'read more'}
+            {readMore ? 'less' : '...more'}
           </button>
         </p>
         <div className="mt-4 flex gap-x-4 ">
